@@ -1,0 +1,18 @@
+# Setup file for  acq                 #
+# line starting with '#' are ignored  #
+#
+# sampling rate in milliseconds
+samplingrate = 10.0
+acqlogfile         = acq.log
+# the channel numbers for acquisition to be comma separated such as 
+# channels =  0,1,5 
+channels     = 0,1
+#
+#
+# For record
+recorddir          = /data
+recordlogfile      =record.log
+observer           =Jeyakumar
+comment            =test observations
+#
+#
